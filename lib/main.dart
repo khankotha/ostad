@@ -15,7 +15,8 @@ class app extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('MyApp'),),
+      appBar: AppBar(title: Text('MyApp'),
+      actions: [Icon(Icons.search)],),
       body: Center(child: Text('I am Kotha .App Developer  '),),
 
 
